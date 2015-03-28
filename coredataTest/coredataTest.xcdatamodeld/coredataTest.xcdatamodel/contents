@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5063" systemVersion="13A603" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Customer" representedClassName="Customer" syncable="YES">
+        <attribute name="c_id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="c_name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ProductCatalogue" representedClassName="ProductCatalogue" syncable="YES">
+        <attribute name="p_id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="p_name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Customer" positionX="178" positionY="-9" width="128" height="73"/>
+        <element name="ProductCatalogue" positionX="-63" positionY="20" width="128" height="73"/>
+    </elements>
+</model>
